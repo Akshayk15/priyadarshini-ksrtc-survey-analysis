@@ -4,7 +4,7 @@ Survey-based analysis of **1,417 responses** on how Kerala's Priyadarshini free-
 
 🔗 **Live dashboard:** [ksrtc-insight.lovable.app](https://ksrtc-insight.lovable.app/)
 
-![Overview](images/01_overview.png)
+![Overview](01_overview.png)
 
 ## Objective
 Understand perceived passenger benefits, the shift from private buses to KSRTC, the pressure on private operators, and the operational challenges (overcrowding, delays) KSRTC faces, and what respondents want done about it.
@@ -40,20 +40,18 @@ Understand perceived passenger benefits, the shift from private buses to KSRTC, 
 Filters: age group, gender, district, area, occupation, KSRTC usage, private-bus usage.
 
 ## Dashboard Screenshots
-![Filters](images/02_filters.png)
-![Passenger benefits](images/03_passenger_benefits.png)
-![Private bus impact](images/04_private_bus_impact.png)
-![Operational challenges](images/05_operational_challenges.png)
-![Key relationships](images/06_key_relationships.png)
+![Filters](02_filters.png)
+![Passenger benefits](03_passenger_benefits.png)
+![Private bus impact](04_private_bus_impact.png)
+![Operational challenges](05_operational_challenges.png)
+![Key relationships](06_key_relationships.png)
 
 ## Project Structure
 ```
 ├── README.md
-├── data/        # survey CSV
-├── python/      # cleaning + EDA notebook
-├── sql/         # analysis queries
-├── powerbi/     # .pbix file
-└── images/      # dashboard screenshots
+├── LICENSE
+├── Priyadarshini_responses.csv     # survey data (1,417 responses)
+└── 01_overview.png ... 06_key_relationships.png   # dashboard screenshots
 ```
 
 ## Author
